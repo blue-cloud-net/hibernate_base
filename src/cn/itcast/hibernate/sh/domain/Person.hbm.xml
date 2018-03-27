@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="cn.itcast.hibernate.sh.domain.Person">
+		<id name="pid" column="pid" length="5" type="java.lang.Long">
+			<generator class="increment"></generator>
+		</id>
+		<property name="pname" column="pname" length="20" type="java.long.String">
+		</property>
+		
+		<property name="psex" column="psex" length="10" type="java.long.String">
+		</property>
+	</class>
+</hibernate-mapping>
